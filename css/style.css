@@ -1,0 +1,418 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.h1 {
+    text-align: center;
+    color: #626262;
+    font-size: 50px;
+}
+
+.logodiv {
+    width: 150px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.span {
+    border-bottom: 2px solid #626262;
+    padding-bottom: 8px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: white;
+    font-size: 17px;
+}
+
+.active {
+    margin-bottom: 2px;
+    border-bottom: 2px solid white;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid white;
+    color: white;
+
+}
+
+#header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/headerbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+
+}
+
+.para {
+    color: #626262;
+    font-size: 18.5px;
+}
+
+.h2 {
+    color: #626262;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.icon_span {
+    margin-right: 10px;
+    font-size: 25px;
+}
+.icon_spanbooking{
+    margin-right: 10px;
+    font-size: 35px;
+    color: #ff5c00;
+    border: 4px solid #ff5c00;
+    border-radius: 100px;
+    padding: 30px;
+}
+
+.header-p {
+    font-size: 16px;
+    color: white
+}
+
+#headerh1 {
+    color: white;
+    font-size: 55px;
+    margin-bottom: 2px;
+
+}
+
+#headerbutton {
+    background: #ff5c00;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #ff5c00;
+    padding: 10px 20px;
+    width: 400px;
+
+}
+
+#header-form {
+    background: rgba(0, 0, 0, 0.474);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card1 {
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 10px grey;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.card1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.486);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    color: white;
+    text-align: center;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+.card1:hover .content {
+    top: 0;
+}
+
+.pageshift {
+    background-color: #ff5c00;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#footer{
+    background-color: rgba(0, 0, 0, 0.661);
+    color: #fff 
+}
+#footer a{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 2px;
+
+}
+
+#footer a:hover{
+    width: 100px !important;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.toolimg {
+    height: 100vh;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 25px grey;
+}
+
+.reviewCard {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px grey;
+    height: auto;
+
+}
+
+.reviwimg img {
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.checked {
+    color: orange;
+}
+
+#booking {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/formbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#booking input,
+select,
+textarea {
+    margin-bottom: 10px;
+}
+
+#bookingbtn {
+    background: #ff5c00;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #ff5c00;
+    padding: 10px 20px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+/* booking form css */
+
+
+
+
+
+.main_bg {
+    background-image: url(../images/background.jpg);
+    max-width: 1280px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.form {
+    width: 650px;
+}
+
+.form-text {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.form-text h1 span img {
+    margin: 0 10px;
+
+}
+
+.form-text h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.form-text p {
+    color: #fff;
+
+    font-size: large;
+}
+
+.main-form div {
+    margin: 10px 10px;
+    width: 300px;
+    display: inline-block;
+}
+
+.main-form div input{
+    width: 100%;
+    background: none;
+    border: 1px solid #ff5c00;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+
+.main-form .big_input {
+    width: 600px;
+}
+
+.main-form div select {
+    width: 100%;
+    background: none;
+    border: 1px solid #ff5c00;
+    ;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+
+.main-form div option {
+    color: black;
+}
+
+.main-form div span {
+    width: 100%;
+
+    color: #fff;
+    font-size: 25px;
+}
+
+#submit {
+    width: 100%;
+    text-align: center;
+}
+
+#submit input {
+
+    width: 200px;
+    background-color: #ff5c00 !important;
+    color: white !important;
+    transition: all .3s;
+}
+
+#submit input:hover {
+
+    width: 200px;
+    background-color: black !important;
+    color: #fff !important;
+}
+
+#submit input:active {
+    font-size: 19px;
+    background-color: rgb(46, 20, 5) !important;
+    color: #fff !important;
+}
+
+.booking_heading {
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:710px) {
+    .main-form {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:374px) {
+    .design img {
+        display: none;
+    }
+}
+@media screen and (max-width:603.5px) {
+    .main-form .big_input{
+        width: 300px;
+    }  
+}
+    @media screen and (max-width:480px) {
+        .booking_heading {
+            border-bottom: 0px;
+            padding-bottom: 2px;
+            margin-bottom: 10px;
+        }
+    }
+
+    @media screen and (max-width:700px) {
+        .main-form div {
+            margin: 10px 0px;
+        }
+    }
+
+
+
+
+
+    /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+
+    @media screen and (max-width:500px) {
+        #headerh1 {
+            color: white;
+            font-size: 40px;
+            margin-bottom: 2px;
+
+        }
+        .icon_spanbooking{
+            margin-right: 10px;
+            font-size: 30px;
+            color: #ff5c00;
+            border: 3px solid #ff5c00;
+            border-radius: 100px;
+            padding: 25px;
+        }
+    }
+
+    @media screen and (max-width:539px) {
+        .span {
+            border-bottom: 0px;
+        }
+    }
+
+    @media screen and (max-width:1207px) {
+        .content {
+            padding: 0px;
+        }
+    }
+
+    @media screen and (max-width:320px) {
+
+        #form_div input,
+        select {
+            width: 300px;
+        }
+    }
